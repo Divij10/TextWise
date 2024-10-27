@@ -1,0 +1,136 @@
+/* General Page Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #5cd1ff; /* Light blue background */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+}
+
+/* Highlighted Text */
+.highlight {
+    color: #31f9bd; /* Light green color for "GO" and phone number */
+}
+
+/* Header Section */
+.header-container {
+    width: 100%;
+    background-color: #353333; /* Dark black background */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+}
+
+.logo-image {
+    width: 120px; /* Increased logo size */
+    height: auto;
+    margin-right: 15px;
+}
+
+.site-name {
+    font-size: 48px; /* Larger font size for TextWise title */
+    font-weight: bold;
+    color: white;
+}
+
+.tagline {
+    font-size: 20px;
+    color: #5cd1ff; /* Light blue text for the tagline */
+    padding-right: 20px; /* Padding from the right edge */
+}
+
+/* Main Content Area */
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 60px 0;
+}
+
+/* Slide-up Message */
+#slide-message {
+    background-color: #353333; /* Dark background for the message */
+    color: white;
+    padding: 20px 50px; /* Padding for a larger message box */
+    font-size: 28px; /* Larger font size for visibility */
+    font-weight: bold;
+    border-radius: 50px; /* Rounded edges for pill shape */
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px; /* Space between message and screenshot image */
+}
+
+/* Screenshot Image */
+.screenshot-image {
+    max-width: 100%; /* Make sure it fits within the content area */
+    width: auto;
+    height: auto;
+    border-radius: 10px; /* Rounded corners for the image */
+    margin-top: 20px; /* Space between text box and screenshot */
+    margin-bottom: 150px; /* Space between screenshot and banner */
+}
+
+/* Banner Image */
+.banner-image {
+    width: 100%; /* Full width, edge-to-edge */
+    height: auto;
+    margin: 0; /* Remove all margins */
+}
+
+/* About Us Button */
+#about-us-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #353333; /* Dark background */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 50px; /* Rounded edges for pill shape */
+    cursor: pointer;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.9s ease, color 0.3s ease;
+}
+
+#about-us-btn:hover {
+    background-color: white;
+    color: #353333; /* Inverted color on hover */
+}
+
+/* About Us Section */
+#about {
+    padding: 80px 40px 95px 40px; /* Padding for the About Us section */
+    background-color: #353333; /* Match the dark black background */
+    color: white;
+    text-align: center;
+    margin-top: 100px; /* Match padding between banner and About Us to screenshot and banner */
+    margin-bottom: 30px; /* Space at the bottom of the About Us section */
+    border-radius: 20px; /* Rounded corners for the About Us section */
+}
+
+#about h2 {
+    font-size: 28px;
+    color: white; /* White color for "About Us" title */
+}
+
+#about p {
+    font-size: 23px;
+    color: white; /* White color for paragraph text */
+    max-width: 900px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
